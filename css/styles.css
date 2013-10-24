@@ -98,6 +98,27 @@ section p {
 	font-weight: bold;
 	font-size: 150%
 }
+
+.navbar-default .navbar-brand {
+	color: gold;
+}
+.navbar-default .navbar-nav > li > a {
+	font-weight: bold;
+	font-size: 160%;
+	color: gold;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: gold;
+	color: purple;
+	font-style: italic;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: gold;
+	color: purple;
+}
+
 iframe {
 	margin-left: 25%;
 }
@@ -117,6 +138,9 @@ footer {
    	font-family: 'libre Baskerville', serif;
    	font-size: 230%;
    	text-align: center;
+}
+.navbar-toggle {
+	background-color: gold;
 }
 
 
